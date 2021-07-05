@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+.brand-color{
+    color: rgb(135, 207, 235);
+}
+.flex-aria{
+    display: flex;
+    
+}
+.comon-aria{
+    width: 40%;
+    margin: 5%;
+}
+.comon-aria img{
+    width: 100%;
+}
+.comon-aria a{
+    padding:20px 40px ;
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, blue);
+    border-radius: 20px;
+    color: white;
+}
+.comon-aria p{
+    margin:10px 0px ;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.about-aria{
+    background-image: url(img/shapes/bg-bloue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.popoler-aria{
+    margin: 70px 20px 20px 20px ;
+}
+#blog-aria{
+    text-align: center;
+}
+#blog-pera{
+    text-align: center;
+}
+.post-aria{
+    width: 30%;
+    margin: 2%;
+    box-shadow: 5px 5px 10px 2px  gray;
+    border-radius: 10px;
+}
+.post-aria div img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+.post-aria div{
+    margin: 20px;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+footer h2{
+    color: burlywood;
+}
