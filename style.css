@@ -6,7 +6,7 @@ h1{
     font-size: 40px;
 }
 .brand-color{
-    color: rgb(135, 207, 235);
+    color: rgb(29, 177, 236);
 }
 .flex-aria{
     display: flex;
@@ -20,7 +20,7 @@ h1{
     width: 100%;
 }
 .comon-aria a{
-    padding:20px 40px ;
+    padding:15px 30px ;
     text-decoration: none;
     background-image: linear-gradient(skyblue, blue);
     border-radius: 20px;
@@ -59,6 +59,40 @@ h1{
 }
 .post-aria div{
     margin: 20px;
+    
+}
+.form-saction-aria{
+    display: flex;
+    margin: 50px;
+    padding: 30px 0px ;
+    justify-content: center;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+}
+.form-aria{
+    width: 40%;
+    margin:5%;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    background-image: url(img/shapes/Group\ 8449.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    box-shadow: 1px 2px 5px skyblue;
+}
+.form-aria form input{
+    border: solid 2px gray;
+    padding: 20px 130px 20px 10px;
+    border-radius: 5px;
+    background-color: rgba(135, 207, 235, 0.284);
+}
+.button{
+    padding:10px 30px ;
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, rgb(201, 201, 217));
+    border-radius: 10px;
+    color: rgba(51, 60, 67, 0.68);
+    margin-top: 20px;
+    border: solid 1px rgb(197, 191, 191);
 }
 footer{
     background-color: black;
@@ -68,4 +102,8 @@ footer{
 }
 footer h2{
     color: burlywood;
+}
+footer p{
+    color: burlywood;
+}
 }
